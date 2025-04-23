@@ -85,9 +85,11 @@ const EXAMPLE_CONTENT_SIZE = 1;
 
 ### Results
 
-#### iOS
+#### New Architecture
 
-##### With `centerContent`
+##### iOS
+
+###### With `centerContent`
 
 | RN version | With React Navigation | Save Content Size | Result  |
 |------------|-----------------------|-------------------|---------|
@@ -104,7 +106,45 @@ const EXAMPLE_CONTENT_SIZE = 1;
 | 0.79.1     | true                  | true              | Error   |
 | 0.79.1     | true                  | false             | Error   |
 
-##### With `contentContainerStyle`
+###### With `contentContainerStyle`
+
+| RN version | With React Navigation | Save Content Size | Result  |
+|------------|-----------------------|-------------------|---------|
+| 0.77.2     | false                 | true              | Success |
+| 0.77.2     | false                 | false             | Success |
+| 0.77.2     | true                  | true              | Success |
+| 0.77.2     | true                  | false             | Success |
+| 0.78.2     | false                 | true              | Success |
+| 0.78.2     | false                 | false             | Success |
+| 0.78.2     | true                  | true              | Success |
+| 0.78.2     | true                  | false             | Success |
+| 0.79.1     | false                 | true              | Success |
+| 0.79.1     | false                 | false             | Success |
+| 0.79.1     | true                  | true              | Success |
+| 0.79.1     | true                  | false             | Success |
+
+#### Old Architecture
+
+##### iOS
+
+###### With `centerContent`
+
+| RN version | With React Navigation | Save Content Size | Result  |
+|------------|-----------------------|-------------------|---------|
+| 0.77.2     | false                 | true              | Success |
+| 0.77.2     | false                 | false             | Success |
+| 0.77.2     | true                  | true              | Success |
+| 0.77.2     | true                  | false             | Success |
+| 0.78.2     | false                 | true              | Success |
+| 0.78.2     | false                 | false             | Success |
+| 0.78.2     | true                  | true              | Success |
+| 0.78.2     | true                  | false             | Success |
+| 0.79.1     | false                 | true              | Success |
+| 0.79.1     | false                 | false             | Success |
+| 0.79.1     | true                  | true              | Success |
+| 0.79.1     | true                  | false             | Success |
+
+###### With `contentContainerStyle`
 
 | RN version | With React Navigation | Save Content Size | Result  |
 |------------|-----------------------|-------------------|---------|
